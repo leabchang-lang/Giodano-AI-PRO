@@ -1,10 +1,12 @@
 {
-  "version": "1.1.3",
-  "release_date": "2026-08-16",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.3/Giodano_AI_PRO_v1.1.3_Installer.exe",
+  "version": "1.1.4",
+  "release_date": "2026-08-22",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.4/Giodano_AI_PRO_v1.1.4_Installer.exe",
   "changelog": [
-    "Added right-click context menu options to insert/delete subtitle segments below selected rows in both subtitle table and timeline.",
-    "Resolved visual and timeline rendering overlaps between adjacent subtitle blocks.",
-    "Fixed missing dropdown list indicators (Droplists) and checkbox checkmarks in compiled/built application mode."
+    "Removed automatic gender detection button from Batch AI UI for a cleaner user experience.",
+    "Fixed timing alignment bug in SRT import to preserve hour and minute timestamps accurately.",
+    "Unified translation engines (Gemini, ChatGPT, Vertex AI) in Batch AI matching main settings.",
+    "Optimized Khmer translation prompts to sound natural, conversational, and context-appropriate.",
+    "Fixed gender priority mapping bug where Female speaker tags matched Male conditions."
   ]
 }
