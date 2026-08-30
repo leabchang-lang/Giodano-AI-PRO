@@ -1,12 +1,9 @@
 {
-  "version": "1.1.4",
-  "release_date": "2026-08-22",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.4/Giodano_AI_PRO_v1.1.4_Installer.exe",
+  "version": "1.1.5",
+  "release_date": "2026-08-30",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.5/Giodano_AI_PRO_v1.1.5_Installer.exe",
   "changelog": [
-    "Removed automatic gender detection button from Batch AI UI for a cleaner user experience.",
-    "Fixed timing alignment bug in SRT import to preserve hour and minute timestamps accurately.",
-    "Unified translation engines (Gemini, ChatGPT, Vertex AI) in Batch AI matching main settings.",
-    "Optimized Khmer translation prompts to sound natural, conversational, and context-appropriate.",
-    "Fixed gender priority mapping bug where Female speaker tags matched Male conditions."
+    "Updated application and installer desktop icons using the new design logo.",
+    "Fixed missing ComboBox down-arrow and CheckBox checkmark icons by dynamically resolving stylesheet paths."
   ]
 }
