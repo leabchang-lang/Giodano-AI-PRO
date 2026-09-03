@@ -1,9 +1,9 @@
 {
-  "version": "1.1.5",
-  "release_date": "2026-08-30",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.5/Giodano_AI_PRO_v1.1.5_Installer.exe",
+  "version": "1.1.6",
+  "release_date": "2026-09-03",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.6/Giodano_AI_PRO_v1.1.6_Installer.exe",
   "changelog": [
-    "Updated application and installer desktop icons using the new design logo.",
-    "Fixed missing ComboBox down-arrow and CheckBox checkmark icons by dynamically resolving stylesheet paths."
+    "Added automatic synchronization and real-time updates for Gender/Voice Profile droplists.",
+    "Fixed VoxCPM2 AI preview and Play All audio playback issues across all cloned voices."
   ]
 }
