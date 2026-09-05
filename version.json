@@ -1,9 +1,12 @@
 {
-  "version": "1.1.6",
-  "release_date": "2026-09-03",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.6/Giodano_AI_PRO_v1.1.6_Installer.exe",
+  "version": "1.1.8",
+  "release_date": "2026-09-05",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.8/Giodano_AI_PRO_v1.1.8_Installer.exe",
   "changelog": [
-    "Added automatic synchronization and real-time updates for Gender/Voice Profile droplists.",
-    "Fixed VoxCPM2 AI preview and Play All audio playback issues across all cloned voices."
+    "Added Windows 10/11 custom dark title bar and caption color theming across all dialogs.",
+    "Redesigned Gender Detection UI with aspect-ratio adaptive preview, window controls (minimize/maximize), and animated purple gradient buttons.",
+    "Updated BGM Isolate Options dialog with pure English text and responsive card styling.",
+    "Fixed SubtitleStyleDialog, CropDialog, and CutterDialog layouts and component rendering.",
+    "Performance optimizations and stability improvements across video processing tools."
   ]
 }
