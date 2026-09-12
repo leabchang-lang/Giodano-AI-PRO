@@ -1,12 +1,11 @@
 {
-  "version": "1.1.8",
-  "release_date": "2026-09-05",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.8/Giodano_AI_PRO_v1.1.8_Installer.exe",
+  "version": "1.1.9",
+  "release_date": "2026-09-12",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.1.9/Giodano_AI_PRO_v1.1.9_Installer.exe",
   "changelog": [
-    "Added Windows 10/11 custom dark title bar and caption color theming across all dialogs.",
-    "Redesigned Gender Detection UI with aspect-ratio adaptive preview, window controls (minimize/maximize), and animated purple gradient buttons.",
-    "Updated BGM Isolate Options dialog with pure English text and responsive card styling.",
-    "Fixed SubtitleStyleDialog, CropDialog, and CutterDialog layouts and component rendering.",
+    "Fixed hardware check on Windows 11 24H2+ using native Win32 APIs and CIM for exact CPU, RAM, and GPU detection.",
+    "Fixed PC STATUS and FEATURES cards in license dialog to dynamically reflect actual activation state (Unregistered, Offline, Expired, Verified).",
+    "Added animated '✓ Activated' button state upon successful license activation.",
     "Performance optimizations and stability improvements across video processing tools."
   ]
 }
