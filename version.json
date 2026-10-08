@@ -1,14 +1,14 @@
 {
-  "version": "1.2.3",
+  "version": "1.2.4",
   "release_date": "2026-10-08",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.3/Giodano_AI_PRO_v1.2.3_Installer.exe",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.4/Giodano_AI_PRO_v1.2.4_Installer.exe",
   "changelog": [
+    "Fixed Video Export Pipeline Error with robust FFmpeg binary path discovery across system and bundled locations.",
+    "Resolved ASS subtitle and Brand Canvas temporary file path issues with absolute path escaping for Windows drive letters.",
+    "Added automatic detection for silent videos without audio tracks to prevent FFmpeg filtergraph stream mapping failures.",
+    "Upgraded Video Export Error Dialog with responsive sizing, scrollable log view, and one-click 'Copy Error' clipboard button.",
+    "Added comprehensive automated logging for export commands and errors (export_error.log).",
     "Enhanced Gemini Chunked Transcribe with intelligent multi-segment processing for long audio/video files.",
-    "Fixed runtime scope issue in transcription chunk naming and temporary audio file management.",
-    "Improved subtitle synchronization and translation workflow with target language defaults.",
-    "Integrated VoxCPM2 Tokenizer-Free Multilingual TTS & Voice Cloning engine with custom voice profiles.",
-    "Synchronized Play All with background Audio AI generation directly to timeline.",
-    "Fixed hardware check on Windows 11 24H2+ using native Win32 APIs and CIM for exact CPU, RAM, and GPU detection.",
-    "Performance optimizations and stability improvements across audio and video processing tools."
+    "Integrated VoxCPM2 Tokenizer-Free Multilingual TTS & Voice Cloning engine with custom voice profiles."
   ]
 }
