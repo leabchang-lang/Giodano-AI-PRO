@@ -1,12 +1,13 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "release_date": "2026-10-08",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.2/Giodano_AI_PRO_v1.2.2_Installer.exe",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.3/Giodano_AI_PRO_v1.2.3_Installer.exe",
   "changelog": [
-    "Fixed FFmpeg stereotools mlev boundary error during BGM + SFX audio separation.",
+    "Enhanced Gemini Chunked Transcribe with intelligent multi-segment processing for long audio/video files.",
+    "Fixed runtime scope issue in transcription chunk naming and temporary audio file management.",
+    "Improved subtitle synchronization and translation workflow with target language defaults.",
     "Integrated VoxCPM2 Tokenizer-Free Multilingual TTS & Voice Cloning engine with custom voice profiles.",
-    "Added synchronized Play All with background Audio AI generation directly to timeline.",
-    "Updated Settings interface with modern VoxCPM2 AI branding and banner.",
+    "Synchronized Play All with background Audio AI generation directly to timeline.",
     "Fixed hardware check on Windows 11 24H2+ using native Win32 APIs and CIM for exact CPU, RAM, and GPU detection.",
     "Performance optimizations and stability improvements across audio and video processing tools."
   ]
