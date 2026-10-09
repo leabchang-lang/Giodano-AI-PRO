@@ -1,8 +1,12 @@
 {
-  "version": "1.2.4",
-  "release_date": "2026-10-08",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.4/Giodano_AI_PRO_v1.2.4_Installer.exe",
+  "version": "1.2.5",
+  "release_date": "2026-10-09",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.5/Giodano_AI_PRO_v1.2.5_Installer.exe",
   "changelog": [
+    "Resolved Demucs v4 AI Vocal Separation [WinError 1114] DLL initialization routine error (c10.dll / PyTorch C++ core).",
+    "Bundled Microsoft Visual C++ 2015-2022 Redistributable (x64) with silent automated setup in Inno Setup installer.",
+    "Integrated proactive auto-injection of VC++ Runtime DLLs (vcruntime140_1.dll, msvcp140.dll) into external PyTorch environments.",
+    "Added smart runtime error detection and 1-Click Fix button in Isolate BGM Dialog with instant retry separation.",
     "Fixed Video Export Pipeline Error with robust FFmpeg binary path discovery across system and bundled locations.",
     "Resolved ASS subtitle and Brand Canvas temporary file path issues with absolute path escaping for Windows drive letters.",
     "Added automatic detection for silent videos without audio tracks to prevent FFmpeg filtergraph stream mapping failures.",
