@@ -1,8 +1,12 @@
 {
-  "version": "1.2.6",
-  "release_date": "2026-10-09",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.6/Giodano_AI_PRO_v1.2.6_Installer.exe",
+  "version": "1.2.7",
+  "release_date": "2026-10-14",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.7/Giodano_AI_PRO_v1.2.7_Installer.exe",
   "changelog": [
+    "Ensured AI Model and Target Language completely govern Dialog Batch Dubbing workflow.",
+    "Added dedicated, isolated Prompts Transcribe Editor for Dialog Batch Dubbing decoupled from main window.",
+    "Integrated direct Batch Auto-Transcription with chosen AI Model and custom Transcribe Prompt.",
+    "Enhanced Dialog Batch Dubbing UI with Prompts Transcribe quick-access button in header.",
     "Boosted AI voice loudness to broadcast standard (-0.6 dBFS peak normalization & limiter) across Piseth, Sreymom, and VoxCPM2.",
     "Integrated dynamic auto-ducking in timeline Play Preview: original video audio automatically dips to ~30% when AI speech is active.",
     "Implemented FFmpeg sidechain compression auto-ducking during video render/export so background sound smoothly dips under AI dialogues.",
