@@ -1,25 +1,11 @@
 {
-  "version": "1.2.7",
+  "version": "1.2.8",
   "release_date": "2026-10-14",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.7/Giodano_AI_PRO_v1.2.7_Installer.exe",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.8/Giodano_AI_PRO_v1.2.8_Installer.exe",
   "changelog": [
-    "Ensured AI Model and Target Language completely govern Dialog Batch Dubbing workflow.",
-    "Added dedicated, isolated Prompts Transcribe Editor for Dialog Batch Dubbing decoupled from main window.",
-    "Integrated direct Batch Auto-Transcription with chosen AI Model and custom Transcribe Prompt.",
-    "Enhanced Dialog Batch Dubbing UI with Prompts Transcribe quick-access button in header.",
-    "Boosted AI voice loudness to broadcast standard (-0.6 dBFS peak normalization & limiter) across Piseth, Sreymom, and VoxCPM2.",
-    "Integrated dynamic auto-ducking in timeline Play Preview: original video audio automatically dips to ~30% when AI speech is active.",
-    "Implemented FFmpeg sidechain compression auto-ducking during video render/export so background sound smoothly dips under AI dialogues.",
-    "Resolved Demucs v4 AI Vocal Separation [WinError 1114] DLL initialization routine error (c10.dll / PyTorch C++ core).",
-    "Bundled Microsoft Visual C++ 2015-2022 Redistributable (x64) with silent automated setup in Inno Setup installer.",
-    "Integrated proactive auto-injection of VC++ Runtime DLLs (vcruntime140_1.dll, msvcp140.dll) into external PyTorch environments.",
-    "Added smart runtime error detection and 1-Click Fix button in Isolate BGM Dialog with instant retry separation.",
-    "Fixed Video Export Pipeline Error with robust FFmpeg binary path discovery across system and bundled locations.",
-    "Resolved ASS subtitle and Brand Canvas temporary file path issues with absolute path escaping for Windows drive letters.",
-    "Added automatic detection for silent videos without audio tracks to prevent FFmpeg filtergraph stream mapping failures.",
-    "Upgraded Video Export Error Dialog with responsive sizing, scrollable log view, and one-click 'Copy Error' clipboard button.",
-    "Added comprehensive automated logging for export commands and errors (export_error.log).",
-    "Enhanced Gemini Chunked Transcribe with intelligent multi-segment processing for long audio/video files.",
-    "Integrated VoxCPM2 Tokenizer-Free Multilingual TTS & Voice Cloning engine with custom voice profiles."
+    "Synchronized Dialog Batch Dubbing Crop feature with main window Crop workflow.",
+    "Enabled real-time live preview of video cropping in Dialog Batch Dubbing playback.",
+    "Added dynamic playback frame capture at exact pause/play position for Batch Crop Dialog.",
+    "Upgraded Edge-TTS engine to resolve 403 Forbidden websocket handshake errors and enhanced synthesis error reporting."
   ]
 }
