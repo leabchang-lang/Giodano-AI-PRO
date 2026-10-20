@@ -1,11 +1,12 @@
 {
-  "version": "1.2.8",
-  "release_date": "2026-10-14",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.8/Giodano_AI_PRO_v1.2.8_Installer.exe",
+  "version": "1.2.9",
+  "release_date": "2026-10-20",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.9/Giodano_AI_PRO_v1.2.9_Installer.exe",
   "changelog": [
-    "Synchronized Dialog Batch Dubbing Crop feature with main window Crop workflow.",
-    "Enabled real-time live preview of video cropping in Dialog Batch Dubbing playback.",
-    "Added dynamic playback frame capture at exact pause/play position for Batch Crop Dialog.",
-    "Upgraded Edge-TTS engine to resolve 403 Forbidden websocket handshake errors and enhanced synthesis error reporting."
+    "Integrated VoxCPM2 server background daemon with real-time Console Logs streaming (eliminated popup CMD window).",
+    "Upgraded KHQR Payment with official Bakong EMVCo Tag 99 Expiration Timestamp for dynamic payments.",
+    "Added 24 Months ($70.00 USD) and 36 Months ($105.00 USD) license packages with auto-filled amounts.",
+    "Integrated latest Google Apps Script license verification and anti-crack backend.",
+    "Optimized Settings dialog tabs and Activation dialog layout geometry."
   ]
 }
