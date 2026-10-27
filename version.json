@@ -1,12 +1,9 @@
 {
-  "version": "1.2.9",
-  "release_date": "2026-10-20",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.2.9/Giodano_AI_PRO_v1.2.9_Installer.exe",
+  "version": "1.3.0",
+  "release_date": "2026-10-24",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.3.0/Giodano_AI_PRO_v1.3.0_Installer.exe",
   "changelog": [
-    "Integrated VoxCPM2 server background daemon with real-time Console Logs streaming (eliminated popup CMD window).",
-    "Upgraded KHQR Payment with official Bakong EMVCo Tag 99 Expiration Timestamp for dynamic payments.",
-    "Added 24 Months ($70.00 USD) and 36 Months ($105.00 USD) license packages with auto-filled amounts.",
-    "Integrated latest Google Apps Script license verification and anti-crack backend.",
-    "Optimized Settings dialog tabs and Activation dialog layout geometry."
+    "Fixed Batch Dubbing unexpected crash / window closing during batch processing.",
+    "Enhanced Batch Dubbing safeguards to prevent skipping audio synthesis and silent video exports."
   ]
 }
