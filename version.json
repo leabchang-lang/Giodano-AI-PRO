@@ -1,9 +1,12 @@
 {
-  "version": "1.3.0",
-  "release_date": "2026-10-24",
-  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.3.0/Giodano_AI_PRO_v1.3.0_Installer.exe",
+  "version": "1.3.1",
+  "release_date": "2026-10-28",
+  "download_url": "https://github.com/leabchang-lang/Giodano-AI-PRO/releases/download/v1.3.1/Giodano_AI_PRO_v1.3.1_Installer.exe",
   "changelog": [
-    "Fixed Batch Dubbing unexpected crash / window closing during batch processing.",
-    "Enhanced Batch Dubbing safeguards to prevent skipping audio synthesis and silent video exports."
+    "Integrated SenseVoice-Small and Paraformer-zh local ASR speech recognition engines with FSMN-VAD breath detection.",
+    "Added SenseVoice-Small and Paraformer-zh feature highlights to the About tab.",
+    "Updated Batch Dubbing model dropdown with Local TSB (Khmer/English/Chinese), OpenAI Whisper, and Gemini Flash models.",
+    "Set Khmer OS Battambang as default font for Configure Text Overlay and Add Text dialogs.",
+    "Performance improvements and stability enhancements across all batch processing workflows."
   ]
 }
